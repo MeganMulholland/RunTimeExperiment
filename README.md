@@ -16,3 +16,11 @@ Compile Instructions:
      -cp ".;classmexer.jar" ^
      Project2Experiment
 - Remember to recompile after any additions or changes to the code.
+
+  Deeper Code Instructions:
+  - For data sizes less than 1e8, use the HashSet. This will guarantee no duplicates in the dataset.
+  - Keep the range as n*100.
+  - For data sizes greater than or equal to 1e8, use the array to generate the dataset.
+  - Lower the range to an acceptable value that allows the program to run smoothly.
+  - Warning!! If you do not switch to using the array for the data set, the HashSet will use all available memory. (it is expensive but ensures no duplicate values)
+  - Comment out the code for which version you will not be using.
